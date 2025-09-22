@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class FamilyMembers {
     public static void main(String[] args) {
         System.out.println("Члены семьи:");

@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class Conditions {
     public static void main(String[] args) {
         int temp = 30;

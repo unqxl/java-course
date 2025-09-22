@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class FamilyMembersAges {
     public static void main(String[] args) {
         int John = 23;

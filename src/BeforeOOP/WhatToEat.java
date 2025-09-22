@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class WhatToEat {
     public static void main(String[] args) {
         int moneyInPocket = 7;

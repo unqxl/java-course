@@ -1,10 +1,7 @@
-import Classes.Box;
-import Classes.Dog;
-import Classes.Employee;
-import Classes.Monster;
-import Classes.Person;
-import Classes.Rect;
-import Classes.Test;
+package Test;
+
+import Examples.Monster;
+import Examples.MyMath;
 
 public class OOP {
     public static void main(String[] args) {

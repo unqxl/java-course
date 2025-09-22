@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class WhatToDo {
     public static void main(String[] args) {
         boolean isGoodWeather = true;

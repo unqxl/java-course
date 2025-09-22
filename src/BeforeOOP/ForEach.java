@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class ForEach {
     public static void main(String[] args) {
         String[] names = {
