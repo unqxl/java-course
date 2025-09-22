@@ -1,21 +1,20 @@
 package Test;
 
 import Classes.MyArrayList;
-import java.util.ArrayList;
 
-public class Employees {
+public class Employees_pt2 {
     public static void main(String[] args) {
-        ArrayList<String> employees = getEmployees();
+        MyArrayList employees = getEmployees();
         employees.add("James");
         employees.remove("Emma");
 
-        for (int i = 0; i < employees.size(); i++) {
+        for (int i = 0; i < employees.getSize(); i++) {
             System.out.println(employees.get(i));
         }
     }
 
-    private static ArrayList<String> getEmployees() {
-        ArrayList<String> employees = new ArrayList<String>();
+    private static MyArrayList getEmployees() {
+        MyArrayList employees = new MyArrayList();
         employees.add("John");
         employees.add("Olivia");
         employees.add("Emma");
