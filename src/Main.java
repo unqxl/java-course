@@ -1,12 +1,12 @@
-import Inheritance.Cat;
-import Inheritance.Lion;
+import Inheritance.ColoredRect;
+import Inheritance.Triangle;
 
 public class Main {
     public static void main(String[] args) {
-        Lion lion = new Lion();
-        Cat cat = new Cat();
+        ColoredRect rect = new ColoredRect(10, 20);
+        Triangle triag = new Triangle(10, 10, 10);
 
-        cat.eat();
-        lion.eat();
+        rect.showPerimeter();
+        triag.showPerimeter();
     }
 }
