@@ -11,6 +11,10 @@ public class CatFamily {
         this.eyes = eyes;
     }
 
+    public void eat() {
+        System.out.println("Кушаю");
+    }
+
     public void setLegs(int legs) {
         this.legs = legs;
     }

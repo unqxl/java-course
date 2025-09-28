@@ -6,7 +6,7 @@ public class Main {
         Lion lion = new Lion();
         Cat cat = new Cat();
 
-        System.out.println(cat.isCanEatPerson());
-        System.out.println(lion.isCanEatPerson());
+        cat.eat();
+        lion.eat();
     }
 }
